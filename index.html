@@ -11,19 +11,22 @@
     <div class="container">
       <h1>Course Track Selector</h1>
       <h3>This tool is designed to help students match a coding discipline to their interests or skill set.
-        <br><br>Please select from the following options:</h3><br>
+        <br><br>Please select from the following track options:</h3><br>
 
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div id="frontEnd" class="well">
-            <h3>Frontend Development</h3>
-            <p>Primarily creating the user interface and visual design.</p>
+            <h3>CSS/React</h3>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div id="backEnd" class="well">
-            <h3>Backend Development</h3>
-            <p>The logical design or behind the scenes functionality.</p>
+            <h3>Java/Android</h3>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id="middleEnd" class="well">
+            <h3>Ruby/Rails</h3>
           </div>
         </div>
       </div>
@@ -33,66 +36,164 @@
           <div class="col-md-8">
             <div id="frontDev" class="hide">
               <div class="well">
-                <h3>Frontend Development</h3>
+                <h3>CSS/React Development</h3>
+                  <p>Dig a little deeper an learn more about the different languages used for frontend development</p>
                   <p>Technical skills that are required for a front end developer include:</p>
                     <ul>
-                      <li><span id="html">HTML - Hyper text markup language. The code that web browsers understand.</span></li>
-                      <li><span id="css">CSS - Cascading style sheets. Allows for styling to be applied to otherwise plain looking html.</span></li>
-                      <li><span id="javascript">Javascript - Although not exclusivly a frontend language it allows for interactive application
-                        to be run entirely on the clients web browser.</span></li>
+                      <li><span id="html" class="hoverable">HTML - Hyper text markup language. The code that web browsers understand.</span></li>
+                      <li><span id="css" class="hoverable">CSS - Cascading style sheets. Allows for styling to be applied to otherwise plain looking html.</span></li>
+                      <li><span id="react" class="hoverable">React - React allows developers to create large web-applications that use data and can change over time
+                        without reloading the page. It aims primarily to provide speed, simplicity, and scalability</span></li>
                     </ul>
               </div>
             </div>
           </div>
         </div>
 
-
         <div class="col-md-offset-3">
           <div class="col-md-8">
             <div id="backDev" class="hide">
               <div class="well">
-                <h3>Backend Development</h3>
-                <p>Technical skills that are required for a front end developer include:</p>
+                <h3>Java/Android Development</h3>
+                <p>To learn more about each language</p>
+                <p></p>
                   <ul>
-                    <li>Ruby - </li>
-                    <li>SQL - </li>
-                    <li>Python - </li>
+                    <li><span id="java" class="hoverable">Java - Ruby can be used to code business logic, calculate data and distribute servers for better performance.</span></li>
+                    <li><span id="android" class="hoverable">Android - A universal database query language. SQL is used to interact with databases, which are a part of every backend web application.</span></li>
+                  <ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-offset-3">
+          <div class="col-md-8">
+            <div id="middleDev" class="hide">
+              <div class="well">
+                <h3>Ruby/Rails Development</h3>
+                <p></p>
+                <p>Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License. </p>
+                  <ul>
+                    <li><span id="ruby" class="hoverable">Ruby - Ruby can be used to code business logic, calculate data and distribute servers for better performance.</span></li>
+                    <li><span id="rails" class="hoverable">Rails - Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages</span></li>
                   <ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!--Third Level of choices -->
+      <!--Third Level of choices for frontend -->
       <div class="row">
-          <div class="col-md-4">
+        <div class="col-md-offset-3">
+          <div class="col-md-8">
             <div id="htmlList" class="hide">
               <div class="well">
                 <h3>HTML</h3>
-                <p>Some html info</p>
+                <p>Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications.</p>
+                <p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as
+                  interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by
+                  denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items.</p>
               </div>
             </div>
           </div>
-
-          <div class="col-md-4">
+          </div>
+          <div class="col-md-offset-3">
+          <div class="col-md-8">
             <div id="cssList" class="hide">
               <div class="well">
                 <h3>CSS</h3>
-                <p>CSS info</p>
+                <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a
+                  document written in a markup language.</p>
+                <p>Changes to the graphic design of a document (or hundreds of documents) can be applied quickly and
+                   easily, by editing a few lines in the CSS file they use, rather than by changing markup in the documents.</p>
               </div>
             </div>
+            </div>
           </div>
-
-          <div class="col-md-4">
-            <div id="javascriptList" class="hide">
+          <div class="col-md-offset-2">
+          <div class="col-md-10">
+            <div id="reactList" class="hide">
               <div class="well">
-                <h3>Javascript</h3>
-                <p>Javascript info</p>
+                <h3>React</h3>
+                <p>React was created by Jordan Walke, a software engineer at Facebook. He was influenced
+                  by XHP, an HTML component framework for PHP. It was first deployed on Facebook's newsfeed
+                   in 2011 and later on Instagram.com in 2012. It was open-sourced at JSConf US in May 2013.</p>
+
+                <p>React Native, which enables native Android, iOS, and UWP development with React, was announced at Facebook's
+                React.js Conf in February 2015 and open-sourced in March 2015.</p>
+
+                <p>On April 18, 2017, Facebook announced React Fiber, a new core algorithm of React framework library for building
+                user interfaces. React Fiber will become the foundation of any future improvements and feature development of
+                the React framework.</p>
               </div>
             </div>
           </div>
-
+        </div>
       </div>
+      <!--Third Level of choices for backend -->
+      <div class="row">
+        <div class="col-md-offset-3">
+          <div class="col-md-8">
+            <div id="javaList" class="hide">
+              <div class="well">
+                <h3>Java</h3>
+                <p>Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented,
+                   and specifically designed to have as few implementation dependencies as possible.</p>
+                <p> It is intended to let application developers "write once, run anywhere" (WORA), meaning that compiled
+                   Java code can run on all platforms that support Java without the need for recompilation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="col-md-offset-3">
+          <div class="col-md-8">
+            <div id="androidList" class="hide">
+              <div class="well">
+                <h3>Android</h3>
+                <p>Android is a mobile operating system developed by Google, based on a modified version of the Linux kernel
+                   and other open source software and designed primarily for touchscreen mobile devices such as smartphones and tablets.</p>
+                <p>Android has been the best-selling OS worldwide on smartphones since 2011 and on tablets since 2013. As of May 2017,
+                  it has over two billion monthly active users, the largest installed base of any operating system, and as of 2017, the
+                  Google Play store features over 3.5 million apps.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div>
+      <!--Third Level of choices for middleEnd -->
+      <div class="row">
+        <div class="col-md-offset-3">
+          <div class="col-md-8">
+            <div id="rubyList" class="hide">
+              <div class="well">
+                <h3>Ruby</h3>
+                <p>Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed
+                  in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.</p>
+                  <p>According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, and Lisp. It supports multiple
+                    programming paradigms, including functional, object-oriented, and imperative. It also has a dynamic type system and
+                     automatic memory management.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-offset-3">
+          <div class="col-md-8">
+            <div id="railsList" class="hide">
+              <div class="well">
+                <h3>Rails</h3>
+                <p>Rails is most commonly used with Ruby and is a Model–view–controller. An (MVC) is an architectural pattern commonly used for
+                  developing user interfaces that divides an application into three interconnected parts. This is done to separate
+                  internal representations of information from the ways information is presented to and accepted from the user.
+                  The MVC design pattern decouples these major components allowing for efficient code reuse and parallel development.</p>
+                  <p>Although originally developed for desktop computing, MVC has been widely adopted as an architecture for World Wide Web
+                    applications in major programming languages.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>

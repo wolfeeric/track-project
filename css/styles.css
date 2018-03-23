@@ -6,3 +6,12 @@
   background-color: lightgray;
   margin:20 auto;
 }
+
+.hoverable {
+  cursor: pointer;
+  color: blue;
+}
+
+.hoverable:hover {
+  text-decoration: underline;
+}
