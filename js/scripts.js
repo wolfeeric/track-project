@@ -1,27 +1,42 @@
 $(document).ready(function() {
 
   $("#frontEnd").click(function() {
-     $("#choice2").toggleClass();
-     $("#choice3").hide();
+     $("#frontDev").toggleClass();
+     $("#backDev").hide();
   });
 
   $("#backEnd").click(function() {
-    $("#choice3").toggleClass();
-    $("#choice2").hide();
+    $("#backDev").toggleClass();
+    $("#frontDev").hide();
   });
 
+  // $("#frontDev").click(function() {
+  //   $("#html").toggleClass();
+  //   $("#css").hide();
+  //   $("#javascript").hide();
+  // });
+  //
+  // $("#backDev").click(function() {
+  //   $("#ruby").toggleClass();
+  //   $("#sql").hide();
+  //   $("#python").hide();
+  // });
+
   $("#html").click(function() {
-    $("#choice4").toggleClass();
-    $("#choice5").hide();
+    $("#htmlList").toggleClass();
+    $("#cssList").hide();
+    $("#javascriptList").hide();
   });
 
   $("#css").click(function() {
-    $("#choice5").toggleClass();
-    $("#choice4").hide();
+    $("#cssList").toggleClass();
+    $("#htmlList").hide();
+    $("#javascriptList").hide();
   });
 
-  $("#Javascript").click(function() {
-    $("#choice5").toggleClass();
-    $("#choice4").hide();
+  $("#javascript").click(function() {
+    $("#javascriptList").toggleClass();
+    $("#cssList").hide();
+    $("#htmlList").hide();
   });
 });
