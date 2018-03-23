@@ -1,7 +1,8 @@
-.hidden {
+.hide {
   display: none;
 }
 
 .well {
   background-color: lightgray;
+  margin:20 auto;
 }
