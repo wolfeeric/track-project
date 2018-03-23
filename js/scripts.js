@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   $("#frontEnd").click(function() {
      $("#frontDev").toggleClass();
      $("#backDev").hide();
@@ -17,18 +16,6 @@ $(document).ready(function() {
     $("#frontDev").hide();
     $("#backDev").hide();
   });
-
-  // $("#frontDev").click(function() {
-  //   $("#html").toggleClass();
-  //   $("#css").hide();
-  //   $("#javascript").hide();
-  // });
-  //
-  // $("#backDev").click(function() {
-  //   $("#ruby").toggleClass();
-  //   $("#sql").hide();
-  //   $("#python").hide();
-  // });
 
   $("#html").click(function() {
     $("#htmlList").toggleClass();
