@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+  var name=prompt("Hey! Welcome to Ericodus! Whats your name?", "Name");
+  $("#welcome").html("Hi There" + " " + name + "! " + "Welcome to Ericodus...");
+
   $("#frontEnd").click(function() {
      $("#frontDev").toggleClass();
      $("#backDev").hide();
